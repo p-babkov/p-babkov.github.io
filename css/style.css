@@ -42,8 +42,13 @@ header{
 	padding: 17px 55px;
 	margin-top: 33px;
 	border: 1px solid black;
-	color:#103882;}
-
+	color:#103882;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;}
+.header-button:hover {
+	box-shadow: none;
+}
 header small
 {font-size: 12px;
  display: block;
@@ -131,6 +136,7 @@ footer{
   display: inline-block;
   margin-left: 13px;
   margin-right: 13px;
+
 }
 
 .footer-cta{
@@ -146,6 +152,14 @@ footer{
 	font-size: 18px;
 	border-radius:50px;
 	padding: 12px 40px;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+
+.footer-button:hover {
+	background-color: #fff;
+	color: #7FAD80;
 }
 
 .footer-cta-block{
