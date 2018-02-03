@@ -1,6 +1,7 @@
 body{margin: 0;
 font-family: Roboto;
-font-size: 18px;}
+font-size: 18px;
+text-decoration: none;}
 
 img{
 	max-width: 100%;
@@ -30,6 +31,8 @@ header{
 }
 
 .header-button{
+	display: inline-block;;
+	text-decoration: none;
 	box-shadow: 10px 17px 34px 6px #666769;
 	border-radius: 50px;
 	background-color: #fff;
@@ -135,6 +138,7 @@ footer{
 }
 
 .footer-button{
+	text-decoration: none;
 	display: inline-block;
 	border: 1px solid #fff;
 	background-color: transparent;
