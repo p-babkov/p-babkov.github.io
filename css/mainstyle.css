@@ -13,7 +13,18 @@ body, html{
 }
 
 body {
-	background-color: #000;
+	background-color: #D7DADB;
+	height: 2000px;
+}
+
+.stickUp {
+	font-size: 2em;
+	color: white;
+	height: 100%;
+}
+
+.stickUp:hover {
+	color: black
 }
 
 a{

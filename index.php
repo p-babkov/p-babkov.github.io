@@ -6,7 +6,7 @@
 	<meta name="desription" content="">
 	<meta name="keywords" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/mainstyle.css">
 	<link rel="shortcut icon" href="img/main-logo.png" type="image/x-icon">		
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/animate.css">
@@ -43,13 +43,13 @@
 		<div id="menuShow"><i class="fa fa-bars" aria-hidden="true"></i></div>
 		<div id="hideMenu">
 		<a href="">Реклама</a>
-		<a href=""> | </a>
+		<a href="" class="stickUp"> | </a>
 		<a href="">Сайты на заказ</a>
-		<a href=""> | </a>
+		<a href="" class="stickUp"> | </a>
 		<a href="">Обратная связь</a>
-		<a href=""> | </a>
+		<a href="" class="stickUp"> | </a>
 		<a href="">Личный кабинет</a>
-		<a href=""> | </a>
+		<a href="" class="stickUp"> | </a>
 	</div>
 		<div id="search">
 			<span>Поиск...</span>
