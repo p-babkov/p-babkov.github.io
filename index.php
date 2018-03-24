@@ -6,7 +6,8 @@
 	<meta name="desription" content="">
 	<meta name="keywords" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/mainstyle.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/mainPage.css">
 	<link rel="shortcut icon" href="img/main-logo.png" type="image/x-icon">		
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/animate.css">
@@ -67,8 +68,60 @@
 			<a href="">Войти</a>
 		</div>
 	</nav>
+<!-- Основная часть начало -->
 
 
+<div id="main">
+	<div id="news">
+		<h2 class="heading">Статьи</h2>
+		<div style="clear: both;"><br></div>
+
+		<!-- Статейка -->
+			<?php 
+			for ($i = 0; $i < 6; $i++) {
+				echo '
+
+		<div class="article">
+			<img src="https://imgp.golos.io/0x0/https://i.imgsafe.org/3f7acf25e5.png" alt="Test" title="Test">
+			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae apiente velit impedit? Sed itaque quisquam alias inventore aliquam possimus.</span>
+		</div>
+' ; } ?>
+				<a href="" title="Посмотреть больше статей">
+					<div class="btn">
+						Посмотреть больше
+					</div>
+				</a>
+
+
+	</div>
+</div>
+
+
+<aside>
+	<div id="courses">
+		<h2 class="heading">Разделы</h2>
+		<div style="clear: both;"><br></div>
+		<!-- Раздел -------------------->
+			<?php 
+			for ($i = 0; $i < 4; $i++) {
+				echo '
+		<div class="course">
+			<img src="http://ic-el.ru/wp-content/uploads/fbb3e88a0d1007ab14ff14459fed5804-1.jpg" alt="Test" title="Test">
+			Раздел посвещенный <em>Информационной</em> тематике
+			<span>25 Статей </span>
+		</div>
+<div style="clear: both;"><br></div>
+' ; } ?>
+<a href="" title="Посмотреть все разделы">
+					<div class="btn">
+						Посмотреть разделы
+					</div>
+				</a>
+	</div>
+</aside>
+<div style="clear: both;"><br></div>
+
+<!-- Основная часть конец  -->
 </div>
 		<footer>
 <div id="site_name">

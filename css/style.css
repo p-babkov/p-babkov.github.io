@@ -13,7 +13,17 @@ body, html{
 }
 
 body {
-	background-color: #000;
+	background-color: #D7DADB;
+}
+
+.stickUp {
+	font-size: 2em;
+	color:  grey;
+	height: 100%;
+}
+
+.stickUp:hover {
+	color: black
 }
 
 a{
@@ -60,7 +70,7 @@ header{
 	width: 99.4%;
 	padding: 0.3%;
 	color: white;
-	border-bottom:5px solid grey;
+	border-bottom:5px solid #343434;
 	font-family: 'Roboto Slab', serif;
 }
 
@@ -210,7 +220,7 @@ header>div#logo>a>span{
 	color: white;
 }
 
-#reg_auth>a:hover>div.btn{
+.btn:hover{
 	margin-top: 7px;
 	transition: all.2s ease;
 	-ms-transition: all.2s ease;
@@ -219,7 +229,7 @@ header>div#logo>a>span{
 	-webkit-transition: all.2s ease
 }
 
-#reg_auth>a:active>div.btn{
+.btn:active{
 	margin-top: 9px;
 	transition: all.2s ease;
 	-ms-transition: all.2s ease;
@@ -229,7 +239,7 @@ header>div#logo>a>span{
 }
 
 
-#reg_auth>a>div.btn {
+.btn {
 	float:right;
 	margin-right: 3%;
 	margin-top: 5px;
@@ -238,6 +248,8 @@ header>div#logo>a>span{
 	padding: 4px 8px;
 	font-size: 1.2em;
 	background-color: #343434;
+	color: white;
+	font-family: 'Roboto Slab', serif;
 }
 
 /*Меню сайта*/
@@ -298,23 +310,23 @@ header>div#logo>a>span{
 /*Футер сайта*/
 
 nav{
-	background-color: white;
+	color: black;
+	background-color: grey;
 	width: 99.4%;
 	padding: 7px 0.3%;
 	float: left;
-	border-bottom: 2px solid #ebebeb;
+	border-bottom: 2px solid #000;
 }
 
 nav a {
-	color: #323232;
+	color: black;
 	font-size: 1.5em;
 	margin-left: 5%;
 }
 
 nav a:hover {
-	color: #e8622d;
+	color: #fff;
 }
-
 nav a:last-child{
 	margin-right: 15px;
 }
